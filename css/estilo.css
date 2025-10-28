@@ -137,3 +137,55 @@ footer {
     text-align: center;
 }
 
+/* Contenedor de la imagen y texto */
+.portada-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Imagen de fondo */
+.portada {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Texto centrado sobre la imagen */
+.texto-portada {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.texto-portada span {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #d6b26f; /* tono dorado */
+}
+
+.texto-portada {
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translate(-50%, -30%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+.link-error {
+    color: goldenrod;
+    font-weight: 400;
+
+}
