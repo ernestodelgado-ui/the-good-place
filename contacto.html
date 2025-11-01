@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./css/fuentes.css">
     <link rel="stylesheet" href="./css/animacion.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>THE GOOD PLACE</title>
 </head>
 
@@ -23,6 +25,7 @@
                 <a href="./personajes.html" class="nav-texto">Personajes</a>
                 <a href="./eventos.html" class="nav-texto">Eventos</a>
                 <a href="./curiosidades.html" class="nav-texto">Curiosidades</a>
+                <a href="./sobre.html" class="nav-texto">Sobre Nosotros</a>
                 <a href="./contacto.html" class="nav-texto">Contacto</a>
             </nav>
         </div>
@@ -36,10 +39,23 @@
                 <h1>CONTACTO</h1>
                 <H2>Formulario de contacto</H2>
                 <P>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut     
+                    <form action="exito.html" class="formulario-contacto">
+                        <fieldset class="campos">
+                            <label for="nombre">Nombre: </label>
+                            <input type="text" id="nombre" name="nombre"  required>
+
+                            <label for="apellido">Apellido: </label>
+                            <input type="text" id="apellido" name="apellido"  required>
+
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email"  required>
+
+                            <label for="mensaje">Mensaje: </label>
+                            <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+                        </fieldset>
+
+                        <button type="submit">Enviar</button>
+                    </form>
                 </P>
             </div>        
 

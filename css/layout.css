@@ -1,0 +1,23 @@
+.columnas {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagen {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imagen img {
+    
+    max-height: 250px;
+}
+.cuerpo {
+    flex-grow: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.texto-derecha {
+    text-align: right;
+}

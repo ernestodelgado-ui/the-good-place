@@ -89,42 +89,6 @@ p {
     font-weight: 500;
 }
 
-.foto-izquierda {
-    display:inline-block;
-    margin: 0px;
-    width: 17%;
-    text-align: center;
-}
-.texto-izquierda {
-    display:inline-block;
-    width: 82%;
-    margin: 0px;
-    text-align: justify;
-    vertical-align: top;
-}
-
-.nombre-actor-derecha {
-    text-align: right;
-}
-
-.foto-derecha {
-    display:inline-block;
-    margin: 0px;
-    width: 17%;
-    text-align: center;
-}
-.texto-derecha {
-    display:inline-block;
-    width: 82%;
-    margin: 0px;
-    text-align: justify;
-    vertical-align: top;
-}
-
-.foto-actor {
-    max-height: 250px;
-}
-
 
 
 
@@ -184,12 +148,51 @@ footer {
     to { opacity: 1; transform: translate(-50%, -50%); }
 }
 
+
+/* Pagina Error */
+
+
 .link-error {
-    color: rgb(255, 255, 255);
+    color: goldenrod;
     font-weight: 400;
-    padding: 6px 12px;
-    border-radius: 8px;    
-    background-color:  goldenrod;
-    color: 
+
+}
+
+
+/* Pagina Exito */
+.exito {
+    min-height: 400px;
+    text-align: center;
+}
+
+
+
+/* Pagina Contacto */
+
+
+
+.formulario-contacto {
+    background-color: goldenrod;
+    border: 0px;
+    font-size: 14pt;
+    text-align: right;
+    padding: 10px;
+}
+
+.formulario-contacto fieldset {
+    border: 0px;
+    display: grid;
+    grid-template-columns: 20% auto;
+    gap: 8px;
+}
+
+.formulario-contacto label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.formulario-contacto button {
+    margin-top: 15px;
+    padding: 10px 20px;
 
 }
