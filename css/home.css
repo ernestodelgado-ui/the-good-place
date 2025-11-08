@@ -1,0 +1,42 @@
+
+
+.portada-principal {
+
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+/* Imagen de fondo */
+.portada-home-imagen {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+
+    opacity: 30%;
+}
+
+.portada-container-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    
+
+}
+
+/* Texto centrado sobre la imagen */
+.portada-home-texto {
+    position: relative;
+    top: 100%;
+    width: 60%;
+    left: 18%;
+    transform: translate(0, -220%);
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.titulo-home {
+    padding-bottom: 40px;
+}
+
