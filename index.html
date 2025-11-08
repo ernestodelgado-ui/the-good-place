@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./css/fuentes.css">
     <link rel="stylesheet" href="./css/animacion.css">
+    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>THE GOOD PLACE</title>
@@ -14,13 +15,16 @@
 <body>
     <div id="menu-hamb">
         <div class="menu-hamb-link">
-            <a href="404.html">Tienda</a>
+            <div><a href="404.html">Tienda</a></div>
+            <div><a href="404.html">Trailer</a></div>
+            <div><a href="404.html">Avances</a></div>
+            <div><a href="404.html">Productora</a></div>
         </div>
     </div>
     <header>
         <div class="nav-logo">
             <a href="./index.html">
-                <img src="./HOME/logo.jpg" alt="logo" class="logo-img">
+                <img src="./HOME/logo2.jpg" alt="logo" class="logo-img">
             </a>
         </div>
         <div class="nav-menu">
@@ -37,37 +41,41 @@
         </div>
         <div class="nav-hamb">
             <a href="#menu-hamb" id="abrir-hamb">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#111111"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
             </a>
             <a href="#" id="cerrar-hamb">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#111111"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </a>
         </div>
     </header>     
 
     <main>
         <a href="https://www.youtube.com/watch?v=W4zq9A3ur8c" target="_blank">
-            <img src="./HOME/portada.jpg" alt="portada home" class="portada">
+            <img src="./HOME/portada.jpg" alt="portada home" class="portada-principal">
         </a>
-        <article>
-            <h1>Conocé a los Inolvidables Personajes de The Good Place</h1>
-            <p>
-                En el universo brillante y extravagante de 
-                <span class="resaltado">The Good Place</span> nada es lo que parece… 
-                y sus personajes son la prueba viviente de ello.
-                <br> 
-                Desde la ironía mordaz de Eleanor, pasando por las dudas filosóficas de Chidi, 
-                el glamour exagerado de Tahani, la ingenuidad encantadora de Jason, 
-                la sabiduría infinita <span class="resaltado">(y caóticamente divertida)</span> de Janet, hasta la astucia de Michael, 
-                cada uno aporta su esencia única a una historia que combina comedia, fantasía y filosofía 
-                con un toque de emoción.
-                <br>
-                Ellos forman un grupo tan dispar como entrañable, unidos por un mismo objetivo: 
-                descubrir qué significa realmente ser una buena persona. 
-                Sus personalidades contrastantes, sus errores humanos <span class="resaltado">(y no tan humanos)</span> y su crecimiento constante 
-                son el corazón de esta comedia fantástica que se convirtió en un fenómeno televisivo.
-            </p>
-        </article>
+        <div class="portada-home">
+            <img src="./HOME/home.jpg" alt="portada home" class="portada-home-imagen">
+            
+            <div class="portada-home-texto">
+                <h1 class="titulo-home">Conocé a los Inolvidables Personajes de The Good Place</h1>
+                <p>
+                    En el universo brillante y extravagante de 
+                    <span class="resaltado">The Good Place</span> nada es lo que parece… 
+                    y sus personajes son la prueba viviente de ello.
+                </p><p>
+                    Desde la ironía mordaz de Eleanor, pasando por las dudas filosóficas de Chidi, 
+                    el glamour exagerado de Tahani, la ingenuidad encantadora de Jason, 
+                    la sabiduría infinita <span class="resaltado">(y caóticamente divertida)</span> de Janet, hasta la astucia de Michael, 
+                    cada uno aporta su esencia única a una historia que combina comedia, fantasía y filosofía 
+                    con un toque de emoción.
+                    </p><p>
+                    Ellos forman un grupo tan dispar como entrañable, unidos por un mismo objetivo: 
+                    descubrir qué significa realmente ser una buena persona. 
+                    Sus personalidades contrastantes, sus errores humanos <span class="resaltado">(y no tan humanos)</span> y su crecimiento constante 
+                    son el corazón de esta comedia fantástica que se convirtió en un fenómeno televisivo.
+                </p>
+            </div>
+        </div>
         
     </main>
 
@@ -75,5 +83,6 @@
         <p>© Página de caracter informativo </p>
     </footer>
 
+    <div class="background"></div>
 </body>
 </html>
