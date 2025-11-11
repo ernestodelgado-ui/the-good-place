@@ -371,4 +371,20 @@ footer {
     color: #f5c842;
     font-weight: 600;
     padding-left: 8px;
+
+}
+
+/* sonido */
+
+.musica {
+  position: fixed;
+  bottom: 40px; /* distancia desde el footer o borde inferior */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.1); /* opcional */
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
