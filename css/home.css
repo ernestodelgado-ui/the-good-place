@@ -1,4 +1,8 @@
-
+.portada-home {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
 
 .portada-principal {
 
@@ -27,7 +31,7 @@
 
 /* Texto centrado sobre la imagen */
 .portada-home-texto {
-    position: relative;
+    position: absolute;
     top: 100%;
     width: 60%;
     left: 18%;
@@ -39,4 +43,3 @@
 .titulo-home {
     padding-bottom: 40px;
 }
-
